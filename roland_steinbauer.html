@@ -1,0 +1,1127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/rs.jpg" alt="Roland Steinbauer" class="rounded-image">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Roland Steinbauer">Roland Steinbauer</h1>
+
+          <p class="title">mathematician</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="	roland.steinbauer@univie.ac.at" class="contact-link">	roland.steinbauer@univie.ac.at</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">(+43 1) 4277-50682</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Office</p>
+
+              <time datetime="Oskar-Morgenstern-Platz 1, Room 10.126">Oskar-Morgenstern-Platz 1, Room 10.126</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Address</p>
+
+              <address>Vienna, Austria</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Pinboard</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
+          </li>
+          
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Teaching</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Vita</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+
+          <section>
+
+            <p>
+              I am a mathematician/mathematical physicist and a researcher in mathematics education in the Analysis, 
+              Geometric Structures and Mathematical Physics section of the Faculty of Mathematics at the University of Vienna. 
+              I am the coordinator of the Austrian Science Fund's (FWF) Emerging Fields project:
+            </p>
+          
+            <div style="text-align: center;">
+              <h3>
+                A new geometry for Einstein's Theory of Relativity and Beyond
+              </h3>
+            </div>
+            
+          <br>
+          
+            <p>
+            My research interests include:
+            </p>
+
+          <ul>
+          <li>mathematical physics/mathematical general relativity:</li>
+
+          <li>spacetime singularities, cosmic censorship, exact radiative spacetimes, impulsivge gravitational waves</li>
+
+            mathematics education:
+
+            professional knowledge of teachers, beliefs on teaching and learning mathematics
+
+            (applied) mathematics:
+
+            generalized functions, theory of PDE, kinetic theory, time frequency analysis & modulation spaces
+          </ul>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/album.svg">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Book</h4>
+
+                <p class="service-item-text">
+                    I have co-authored the general introductory book Einführung in das Mathematische Arbeiten 
+                    (German,Introduction into mathematical methodology) with Hermann Schichl. Together we are running 
+                    a service web page accompanying the book. We have been awarded the UNIVIE Teaching Award 2013 of 
+                    Vienna University and the Ars Docendi 2016, the Austrian National Award in University Teaching.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/awards.svg">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Professional Memberships: IAGF, ISAAC, and GDM Involvement</h4>
+
+                <p class="service-item-text">
+                    Also I am member and treasurer of the IAGF (The International Association for Generalized Functions), 
+                    a life-time member of ISAAC (The International Society for Analysis, its Applications and Computation), 
+                    and a member of GDM (The German Society of Didactics of Mathematics).
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/boy.svg">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">DDiverse Mathematics Teaching Portfolio</h4>
+
+                <p class="service-item-text">
+                    My teaching includes a variety of courses in several areas of mathematics reaching from general 
+                    first-year-courses to specialized courses and seminars in analysis, PDE and geometry, as well as major 
+                    courses in the teacher’s training programme.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/check.svg">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Supervisor in MCMP and VSM Programs</h4>
+
+                <p class="service-item-text">
+                    I am a supervisor both in the
+
+                    Vienna Master Class Mathematical Physics (MCMP) which is run jointly by the Faculties of 
+                    Mathematics and Physics of Vienna University, and Vienna School of Mathematics (VSM) which is 
+                    a new joint enterprise of the University of Vienna and the Technical University Vienna.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">A new geometry for Einstein's Theory of Relativity and Beyond - The Team</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Clemes Saemann" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Clemes Saemann</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Placeholder lol
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Chiara Rigoni" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Chiara Rigoni</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Placeholder lol
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+  
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-2.png" alt="Chiara Rigoni" width="60" data-testimonials-avatar>
+                  </figure>
+  
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Chiara Rigoni</h4>
+  
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Placeholder lol
+                    </p>
+                  </div>
+  
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+  
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-2.png" alt="Chiara Rigoni" width="60" data-testimonials-avatar>
+                  </figure>
+  
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Chiara Rigoni</h4>
+  
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Placeholder lol
+                    </p>
+                  </div>
+  
+                </div>
+              </li>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="pinboard" data-page="pinboard">
+
+        <header>
+          <h2 class="h2 article-title">Pinboard</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Everything that has happened</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Talks in Turin</h4>
+
+              <span>09/2024</span>
+
+              <p class="timeline-text">
+                I talked at the GF2024 and gave a invited talk at the Time Machine Factory conference, both in Turin, Italy.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">The Hawking theorem in Lipschitz regularity</h4>
+
+              <span>19/6/2024</span>
+
+              <p class="timeline-text">
+                I gave the invited talk The Hawking theorem in Lipschitz regularity at Queen Mary University of London, U.K.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">EPS Conference on Gravitation</h4>
+
+              <span>05/2024</span>
+
+              <p class="timeline-text">
+                I have been invited as a speaker to the EPS Conference on Gravitation: Unlocking Gravity Through 
+                Computation in Prague in December 2024, as well as to the BIRS-IMAG workshop Geometry, Analysis, and 
+                Physics in Lorentzian Signature in Granada in May 2025.
+              </p>
+            
+            </li>
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">The new teaching project MaThX </h4>
+  
+                <span>04/2024</span>
+  
+                <p class="timeline-text">
+                  The University of Vienna has announced to fund the Faculty's teaching project MaThX 
+                  (Mathematikunterricht zwischen Theorie und Praxis; Teaching mathematics beteen theory and pratice), 
+                  where I am a team memeber.
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Talk at the Mathematical Society's Teacher Training</h4>
+      
+                <span>05/04/2024</span>
+      
+                <p class="timeline-text">
+                        Together with Ilse Fischer I gave a talk at the Austrian Mathematical Society's Teacher Training 
+                        Day entiteled Neue Mathematik für die Schule (New Mtahs for the School).
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">A new geometry for Einstein's Theory of Relativity and Beyond</h4>
+      
+                <span>12/03/2024</span>
+      
+                <p class="timeline-text">
+                    The Austrian Science Fund (FWF) has announced to fund the project
+                    A new geometry for Einstein's Theory of Relativity and Beyond
+                    in its new Emerging Fields excellency propgramme. The funding sum is an unprecedented 7 Mio. Euro. 
+                    The project team consist of Michael Kunzinger, Raquel Perales, Chiara Rigoni, Clemens Sämann, and myself.
+                    See the press releases of FWF, the University of Vienna and the Faculty of Mathematics.		
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Invited Lecture at the Mathematical Society's Teacher's Day</h4>
+      
+                <span>22/09/2023</span>
+      
+                <p class="timeline-text">
+                    Together with Ilse Fischer I gave an invited lecture at the Teacher's Day of the Austrian Mathematical Society.	
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Clemens Sämann gets awarded START-prize of the Austrian Science fund</h4>
+      
+                <span>06/2023</span>
+      
+                <p class="timeline-text">
+                    Clemens Sämann, graduate from our research group and my frequent co-author was arwarded the START-prize of the 
+                    Austrian Science fund.
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">invitation the scientific board of GeLoMer</h4>
+      
+                <span>04/2023</span>
+      
+                <p class="timeline-text">
+                    I was invited to join the scientific board of GeLoMer the XI International Meeting on Lorentzian Geometry, 
+                    to be held in Merida, Mexico, Jan. 29--Feb. 2, 2024.
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Talk at Planetarium</h4>
+      
+                <span>26/4/2023</span>
+      
+                <p class="timeline-text">
+                    I gave a popular talk on my research at Vienna Planetarium.
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">conference in Novi Sad</h4>
+      
+                <span>21/4/2023</span>
+      
+                <p class="timeline-text">
+                    I gave an invited main lecture entiteled Impulsive gravitational waves (From particle motion to geometry) 
+                    at the HASOP2023 conference in Novi Sad, Serbia.
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Our workshop about Non-regular Spacetime Geometry gets hosted mby the ESI</h4>
+      
+                <span>13-24/03/2023</span>
+      
+                <p class="timeline-text">
+                    The ESI hosted our workshop Non-regular Spacetime Geometry, co-organised with Piotr Chrusciel, 
+                    Melanie Graf, Ettore Minguzzi, and Mike Kunzinger.
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">something about General Relativity and Gravitation</h4>
+      
+                <span>16/02/2023</span>
+      
+                <p class="timeline-text">
+                    The Topical Collection "Singularity theorems, causality, and all that (SCRI21)", 
+                    which I was co-editing appeared topday in General Relativity and Gravitation.
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Research Milestones and Academic Achievements in 2022: Conferences, Ph.D. Successes, and Invited Talks</h4>
+      
+                <span>2022</span>
+      
+                <p class="timeline-text">
+                    The International Conference on Generalized Functions GF2022 organzied by our research group took place at our Faculty in Vienna.
+                    My student Benedict Schinnerl defended his Ph.D. thesis with best marks.
+                    My Ph.D. student Argam Ohanyan received a DOC-grant from the Austrian Academy of Science. He also successfully defended his master thesis in Pysics.
+                    I gave the invited main talk Raumzeitsingularitäten: Die Theoreme von Penrose und Hawking (Spacetime singularities: The theorems of Penrose and Hawking) 
+                    at the ÖMG-Fortbildungstagung für Lehrhräfte (Meeting for continuing education of teachers of the Austrian Mathematical Society).
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Solidarity with Ukraine</h4>
+      
+                <span>25/2/2022</span>
+      
+                <p class="timeline-text">
+                    Solidarity with Ukraine
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Collaborative Projects, Workshops, and Research Highlights: Funding Success and Academic Contributions</h4>
+      
+                <span>2021</span>
+      
+                <p class="timeline-text">
+                    The project application Marginally outer trapped tubes of Walter Simon, where I am a co-applicant was selected for funding by FWF.
+                    I was co-organizing the small 2021 Null Distance Workshop with Cristina Sormani.
+                    The talks and slides of the online-meeting SCRI21: Singularity theorems, causality, and all that (A tribute to Roger Penrose) which was held June 14-18, 2021, and which I was co-organizing are now available from the conference website under https://sites.google.com/unifi.it/scri21/program.
+                    The talks of the 10th International Meeting on Lorentzian Geometry GeLoCor, where I was a member of the scientific commitee are now available on a Youtube channel.
+                    My FWF-funded research project Non-smooth spacetime geometry has started with two Ph.D. students employed, Matteo Calisti and Felix Rott.
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Funding Success and Scholarship Award for Ph.D. Student</h4>
+      
+                <span>2020</span>
+      
+                <p class="timeline-text">
+                    My project application Non-smooth spacetime geometry was selected for funding by FWF.
+                    My Ph.D. student Benedict Schinnerl was awarded a Uni:Docs scholarship.
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">public lecture at Planetarum</h4>
+      
+                <span>2019</span>
+      
+                <p class="timeline-text">
+                    I gave a public lecture at Planetarium Wien about Raumzeitsingularitäten.
+                </p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Jiri Podolsky has written a background story on his research for CQG+</h4>
+      
+                <span>2019</span>
+      
+                <p class="timeline-text">
+                    Jiri Podolsky, a theoretical physicist from Charles University at Prague 
+                    (and a frequent collaborator of mine) has written a background story on his research for CQG+. 
+                    It is entiteled Understanding exact space-times and also briefly describes our joint project(s).
+                </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Book in collaboration with Hermann Schichl</h4>
+      
+                <span>2018</span>
+      
+                <p class="timeline-text">
+                    The 3rd edition of the textbook Einführung in das mathematische Arbeiten 
+                    (German; Introduction into mathematical methodology) with Hermann Schichl has just appeared. For the product flyer click here.
+                    The service page of the book http://www.mat.univie.ac.at/~einfbuch has been updated. 
+                    Also the series of explanatory videos which we have produced acompanying the 3rd edition is available freely from there.
+                </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESEARCH
+      -->
+
+      <article class="research" data-page="research">
+
+        <header>
+          <h2 class="h2 article-title">Research</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Research Interests</button>
+            </li>
+            
+            <li class="filter-item">
+              <button data-filter-btn>Topics</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Publications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Projects</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Talks</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+          </div>
+
+          <a>asdadad</a>
+
+        </section>
+
+      </article>
+
+
+      
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d664.5865333208873!2d16.367184750223437!3d48.219209170628424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d07ca6f5b0e89%3A0x5f790bb2945495b!2sUniversit%C3%A4t%20Wien%20-%20Fakult%C3%A4t%20f%C3%BCr%20Wirtschaftswissenschaften%20und%20Fakult%C3%A4t%20f%C3%BCr%20Mathematik!5e0!3m2!1sde!2sat!4v1729714422035!5m2!1sde!2sat" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </figure>
+        </section>
+
+
+
+        <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+  
+              <h3 class="h3"> </h3>
+            </div>
+  
+            <ol class="timeline-list">
+  
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Mailing Address</h4>
+  
+                <span>Fakultät für Mathematik, Oskar-Morgenstern-Platz 1, 1090 Wien, Austria</span>
+  
+              </li>
+
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Office</h4>
+  
+                <span>OMP1, Oskar-Morgenstern-Platz 1, Room 10.126</span>
+  
+              </li>
+
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Office hours</h4>
+  
+                <span>by appointment</span>
+  
+              </li>
+
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Phone</h4>
+  
+                <span>(+43 1) 4277-50682</span>
+  
+              </li>
+
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Fax</h4>
+  
+                <span>(+43 1) 4277-9506</span>
+  
+              </li>
+
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">E-Mail</h4>
+  
+                <span>roland.steinbauer@univie.ac.at</span>
+  
+              </li>
+
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Website</h4>
+  
+                <span>personal page, official university page
+                </span>
+  
+              </li>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
