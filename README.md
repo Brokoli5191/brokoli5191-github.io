@@ -33,10 +33,10 @@
     <img src="https://avatars.githubusercontent.com/u/119419930?s=400&u=bd4c915bf1894522db67b6779105a2459354623c&v=4" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">My Website</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An awesome website
     <br />
     <a href="https://github.com/Brokoli5191/brokoli5191.github.io"><strong>Explore the docs »</strong></a>
     <br />
@@ -64,11 +64,10 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#prerequisites-for-downloading-the-files">Prerequisites for downloading the files</a></li>
+        <li><a href="#downloading-the-files">Downloading the files</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -81,8 +80,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 I created this Website just for fun :smile:
 
@@ -105,15 +102,15 @@ The website is build with:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+1. Visit the [site](https://brokoli5191.github.io/)
+2. Or download the files
 
-### Prerequisites
+### Prerequisites for downloading the files
 
 Firstly you have to [install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to clone the repository to have all files on your computer locally.
-* git
 
-### Installation
+
+### Downloading the files
 
 1. Clone the repo
    ```sh
@@ -127,27 +124,15 @@ Firstly you have to [install git](https://git-scm.com/book/en/v2/Getting-Started
 
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [ ] Copy all text from old website
+- [ ] Setup links
+- [ ] Setup jump to
+- [ ] Different pages
+- [ ] Design changes
+    - [ ] Add bar on the right side
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
@@ -171,8 +156,8 @@ Don't forget to give the project a star! Thanks again!
 
 ### Top contributors:
 
-<a href="https://github.com/othneildrew/Best-README-Template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=othneildrew/Best-README-Template" alt="contrib.rocks image" />
+<a href="https://github.com/Brokoli5191/brokoli5191.github.io/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Brokoli5191/brokoli5191.github.io" alt="contrib.rocks image" />
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -191,9 +176,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Brokoli5191 - Brokoli5191@gmmx.de
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/Brokoli5191/brokoli5191.github.io](https://github.com/Brokoli5191/brokoli5191.github.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
