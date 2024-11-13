@@ -114,7 +114,7 @@ Firstly you have to [install git](https://git-scm.com/book/en/v2/Getting-Started
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/Brokoli5191/brokoli5191.github.io.git
    ```
 2. Open the index.html file in your browser of choice
 
