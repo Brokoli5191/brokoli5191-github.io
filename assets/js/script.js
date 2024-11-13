@@ -157,25 +157,5 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
-// page navigation variables
-const navigationLinks2 = document.querySelectorAll("[data-nav-link1]");
-const pages2 = document.querySelectorAll("[data-page1]");
 
-// add event to all nav link
-for (let i = 0; i < navigationLinks2.length; i++) {
-  navigationLinks2[i].addEventListener("click", function () {
-
-    for (let i = 0; i < pages2.length; i++) {
-      if (this.innerHTML.toLowerCase() === pages2[i].dataset.page) {
-        pages2[i].classList.add("active");
-        navigationLinks2[i].classList.add("active");
-        window.scrollTo(0, 0);
-      } else {
-        pages2[i].classList.remove("active");
-        navigationLinks2[i].classList.remove("active");
-      }
-    }
-
-  });
-}
 
