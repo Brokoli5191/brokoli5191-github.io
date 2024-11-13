@@ -41,7 +41,7 @@
     <a href="https://github.com/Brokoli5191/brokoli5191.github.io"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Brokoli5191/brokoli5191.github.io">View Demo</a>
+    <a href="https://brokoli5191.github.io">View Demo</a>
     ·
     <a href="https://github.com/Brokoli5191/brokoli5191.github.io/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
