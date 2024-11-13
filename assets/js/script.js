@@ -157,13 +157,4 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
-// Add event listener to button inside a page (to prevent bubbling)
-const buttonsInPages = document.querySelectorAll("[data-page] button");
 
-buttonsInPages.forEach(button => {
-  button.addEventListener("click", function(event) {
-    event.stopPropagation(); // Prevents the event from bubbling up to navigation
-    console.log("Button clicked inside a page!");
-    // Additional button-specific actions
-  });
-});
