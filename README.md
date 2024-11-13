@@ -176,7 +176,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Brokoli5191 - Brokoli5191@gmmx.de
+Brokoli5191 - Brokoli5191@gmx.de
 
 Project Link: [https://github.com/Brokoli5191/brokoli5191.github.io](https://github.com/Brokoli5191/brokoli5191.github.io)
 
