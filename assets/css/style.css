@@ -1837,7 +1837,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 /*-----------------------------------*\
   #RESEARCH
 \*-----------------------------------*/
- .filter-item{
+ .filter-item:a{
     color: hsl(0, 0%, 84%);
     font-size: var(--fs-8);
     padding: 20px 7px;
