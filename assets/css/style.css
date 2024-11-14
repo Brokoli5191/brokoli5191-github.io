@@ -1838,15 +1838,19 @@ textarea.form-input::-webkit-resizer { display: none; }
   #RESEARCH
 \*-----------------------------------*/
  .filter-item{
-    color: var(--light-gray);
+    color: hsl(0, 0%, 84%);
     font-size: var(--fs-8);
     padding: 20px 7px;
     transition: color var(--transition-1);
   }
   .filter-item:hover,
-  .filter-item:focus { color: var(--light-gray-70); }
+  .filter-item:focus {
+	color:  hsla(0, 0%, 84%, 0.7);
+  }
   
-  .filter-item.active { color: var(--orange-yellow-crayola); }
+  .filter-item.active {
+	color:  hsl(45, 100%, 72%);
+  }
 
 
 }
