@@ -1833,4 +1833,20 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+
+/*-----------------------------------*\
+  #RESEARCH
+\*-----------------------------------*/
+ .research{
+    color: var(--light-gray);
+    font-size: var(--fs-8);
+    padding: 20px 7px;
+    transition: color var(--transition-1);
+  }
+  .research:hover,
+  .research:focus { color: var(--light-gray-70); }
+  
+  .research.active { color: var(--orange-yellow-crayola); }
+
+
 }
