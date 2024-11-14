@@ -1837,16 +1837,16 @@ textarea.form-input::-webkit-resizer { display: none; }
 /*-----------------------------------*\
   #RESEARCH
 \*-----------------------------------*/
- .research{
+ .filter-item{
     color: var(--light-gray);
     font-size: var(--fs-8);
     padding: 20px 7px;
     transition: color var(--transition-1);
   }
-  .research:hover,
-  .research:focus { color: var(--light-gray-70); }
+  .filter-item:hover,
+  .filter-item:focus { color: var(--light-gray-70); }
   
-  .research.active { color: var(--orange-yellow-crayola); }
+  .filter-item.active { color: var(--orange-yellow-crayola); }
 
 
 }
