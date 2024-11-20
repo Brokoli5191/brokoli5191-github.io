@@ -492,14 +492,21 @@ main {
 
 .about-text {
   color: var(--light-gray);
-  font-size: var(--fs-6);
+  font-size: var(--fs-12);
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
 
 .about-text p { margin-bottom: 15px; }
 
+.list {
+  margin-left: 15px
+}
 
+.about-title {
+  font-size: var(--fs-6);
+  color: var(--white-1)
+}
 
 /**
  * #service 
@@ -582,7 +589,7 @@ main {
   left: 0;
   transform: translate(15px, -25px);
   background: var(--bg-gradient-onyx);
-  border-radius: 14px;
+  border-radius: 15px;
   box-shadow: var(--shadow-1);
 }
 
