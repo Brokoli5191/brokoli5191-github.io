@@ -158,5 +158,25 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
 }
 
+// Alternative page navigation variables
+const altNavLinks = document.querySelectorAll("[data-alt-nav-link]");
+const altPages = document.querySelectorAll("[data-alt-page]");
 
+// Add event to all alternative nav links
+for (let j = 0; j < altNavLinks.length; j++) {
+  altNavLinks[j].addEventListener("click", function () {
+
+    for (let k = 0; k < altPages.length; k++) {
+      if (this.innerHTML.toLowerCase() === altPages[k].dataset.altPage) {
+        altPages[k].classList.add("active");
+        altNavLinks[j].classList.add("active");
+        window.scrollTo(0, 0);
+      } else {
+        altPages[k].classList.remove("active");
+        altNavLinks[k].classList.remove("active");
+      }
+    }
+
+  });
+}
 
