@@ -763,9 +763,6 @@
       </article>
 
 
-
-
-
       <!--
         - #RESEARCH
       -->
@@ -776,73 +773,40 @@
           <h2 class="h2 article-title">Research</h2>
         </header>
 
-        <section class="projects">
+        <div class="filter-select-box">
+          <button class="filter-select" data-select>
+            <div class="select-value" data-selecct-value>Select category</div>
+            <div class="select-icon">
+              <ion-icon name="chevron-down"></ion-icon>
+            </div>
+          </button>
+        </div>
 
-          <ul class="filter-list-research">
-
-            <li class="filter-item">
-              <a class="research1" href="#research-interests">Research Interests</a>
-            </li>
-            
-            <li class="filter-item">
-              <a class="research1" href="#topics">Topics</a>
-            </li>
-
-            <li class="filter-item">
-              <a class="research1" href="#publications">Publications</a>
-            </li>
-
-            <li class="filter-item">
-              <a class="research1" href="#projects">Projects</a>
-            </li>
-
-            <li class="filter-item">
-              <a class="research1" href="#talks">Talks</a>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-          </div>
-
-          
-        <!--
-        - #RESEARCH-Interests
-      -->
-        <section class="research-interests" id="research-interests">
-          
-          <h2 class="research-article-title">Research <br> Interests</h2>
-          <p class="research-paragraph-container">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-             sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-          </p>
-          
-        </section>
-
-
-        <!--
-      - #TOPICS
-      -->
-        <section class="topics" id="topics">
-          <h2 class="research-article-title">Research Interests</h2>
-          <p class="research-paragraph-container">
+        <ul class="filter-list-research">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-alt-nav-link>Research-Interests</button>
+          </li>
+  
+          <li class="navbar-item">
+            <button class="navbar-link" data-alt-nav-link>Topics</button>
+          </li>
+  
+          <li class="navbar-item">
+            <button class="navbar-link" data-alt-nav-link>Publications</button>
+          </li>
+  
+          <li class="navbar-item">
+            <button class="navbar-link" data-alt-nav-link>Projects</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-alt-nav-link>Talks</button>
+          </li>
+        </ul>
+  
+  
+          <article class="Research-Interests active" data-alt-page="research-interests">
+            <h2>Research-Interests</h2>
+            <p class="research-paragraph-container"></p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
             sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
             sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
@@ -852,66 +816,69 @@
             sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
             Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
           </p>
-        </section>
-        <section class="publications" id="publications">
-          <h2 class="research-article-title">Research Interests</h2>
-          <p class="research-paragraph-container">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-          </p>
-        </section>
-        <section class="projects" id="projects">
-          <h2 class="research-article-title">Research Interests</h2>
-          <p class="research-paragraph-container">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-          </p>
-        </section>
-        <section class="talks" id="talks">
-          <h2 class="research-article-title">Research Interests</h2>
-          <p class="research-paragraph-container">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-          </p>
-        </section>
+          </article>
+  
+  
+  
+          <article class="Topics" data-alt-page="topics">
+            <h2>Topics</h2>
+            <p class="research-paragraph-container"></p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+          </article>
+  
+          <article class="Publications" data-alt-page="publications">
+            <h2>Publications</h2>
+            <p class="research-paragraph-container"></p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+          </article>
+  
+          <article class="Projects" data-alt-page="projects">
+            <h2>Projects</h2>
+            <p class="research-paragraph-container"></p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+          </article>
 
-        </section>
+          <article class="Talks" data-alt-page="talks">
+            <h2>Talks</h2>
+            <p class="research-paragraph-container"></p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+          </article>
 
-      </article>
-
-      
-      
-
-      <article class="research" >
 
 
-
-
-
-      </article>
-
-
-      
-     
-      
+        </article>
 
       <!--
         - #TEACHING
@@ -922,6 +889,102 @@
         <header>
           <h2 class="h2 article-title">Teaching</h2>
         </header>
+
+        <div class="filter-select-box">
+          <button class="filter-select" data-select>
+            <div class="select-value" data-selecct-value>Select category</div>
+            <div class="select-icon">
+              <ion-icon name="chevron-down"></ion-icon>
+            </div>
+          </button>
+        </div>
+
+      <ul class="filter-list-research">
+        <li class="navbar-item">
+          <button class="navbar-link active" data-alt-nav-link>Teaching-Activities</button>
+        </li>
+
+        <li class="navbar-item">
+          <button class="navbar-link" data-alt-nav-link>Courses</button>
+        </li>
+
+        <li class="navbar-item">
+          <button class="navbar-link" data-alt-nav-link>Lecture-Notes</button>
+        </li>
+
+        <li class="navbar-item">
+          <button class="navbar-link" data-alt-nav-link>Students</button>
+        </li>
+      </ul>
+
+
+        <article class="Teaching-Activities active" data-alt-page="teaching-activities">
+          <h2>Teaching-Activities</h2>
+          <p class="research-paragraph-container"></p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+          sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+          Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+          sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+          Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+        </p>
+        </article>
+
+
+
+        <article class="Courses" data-alt-page="courses">
+          <h2>Courses</h2>
+          <p class="research-paragraph-container"></p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
+        </article>
+
+        <article class="Lecture-Notes" data-alt-page="lecture-notes">
+          <h2>Lecture-Notes</h2>
+          <p class="research-paragraph-container"></p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
+        </article>
+
+        <article class="Students" data-alt-page="students">
+          <h2>Students</h2>
+          <p class="research-paragraph-container"></p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
+        </article>
+
+
+        
+        
+
+
+      
+
+
+
 
       </article>
 
@@ -935,7 +998,96 @@
           <h2 class="h2 article-title">Vita</h2>
         </header>
 
+        <div class="filter-select-box">
+          <button class="filter-select" data-select>
+            <div class="select-value" data-selecct-value>Select category</div>
+            <div class="select-icon">
+              <ion-icon name="chevron-down"></ion-icon>
+            </div>
+          </button>
+        </div>
+
+        <ul class="filter-list-research">
+          <li class="navbar-item active">
+            <button class="navbar-link" data-alt-nav-link>Curriculum-Vitae</button>
+          </li>
+  
+          <li class="navbar-item">
+            <button class="navbar-link" data-alt-nav-link>Personal-Data</button>
+          </li>
+  
+          <li class="navbar-item">
+            <button class="navbar-link" data-alt-nav-link>Education</button>
+          </li>
+  
+          <li class="navbar-item">
+            <button class="navbar-link" data-alt-nav-link>Scientific-Career</button>
+          </li>
+        </ul>
+  
+  
+          <article class="Curriculum-Vitae active" data-alt-page="curriculum-vitae">
+            <h2>Curriculum-Vitae</h2>
+            <p class="research-paragraph-container"></p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
+          </article>
+  
+  
+  
+          <article class="Personal-Data" data-alt-page="personal-data">
+            <h2>Personal-Data</h2>
+            <p class="research-paragraph-container"></p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+          </article>
+  
+          <article class="Education" data-alt-page="education">
+            <h2>Education</h2>
+            <p class="research-paragraph-container"></p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+          </article>
+  
+          <article class="Scientific-Career" data-alt-page="scientific-career">
+            <h2>Scientific-Career</h2>
+            <p class="research-paragraph-container"></p>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+          </article>
+
       </article>
+
+
+      
     
 
       <!--
