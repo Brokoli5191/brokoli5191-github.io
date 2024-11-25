@@ -113,7 +113,14 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: none; }
+a {
+   text-decoration: none; 
+   color: var(--vegas-gold);
+  }
+
+a:hover{
+  color: var(--orange-yellow-crayola);
+}
 
 li { list-style: none; }
 
@@ -145,8 +152,9 @@ html { font-family: var(--ff-poppins); }
 
 body { background: var(--smoky-black); }
 
-
-
+a{
+  display: inline;
+}
 
 
 /*-----------------------------------*\
@@ -527,8 +535,11 @@ main {
  .research-paragraph-container{
    color: var(--light-gray);
    margin-left: 10px;
-   padding-top: 15px;
    padding-bottom: 25px;
+ }
+
+ .list-research{
+  color:var(--light-gray);
  }
 
 
