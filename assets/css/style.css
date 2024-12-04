@@ -498,6 +498,10 @@ main {
 \*-----------------------------------*/
 
 
+.padding-left-ph{
+ padding-left: -5px;
+}
+
 .filter-list-research{
   display: flex;
   justify-content: center;
