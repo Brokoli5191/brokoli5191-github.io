@@ -543,6 +543,7 @@ main {
  }
 
  .list-research{
+  padding-left: 20px;
   color:var(--light-gray);
  }
 
