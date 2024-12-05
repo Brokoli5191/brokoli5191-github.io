@@ -403,8 +403,8 @@ main {
   gap: 16px;
 }
 
-.contact-item: ul{
- list-style-type: none;
+.contact-item: li{
+ list-style: none;
 }
 .contact-item {
   min-width: 100%;
