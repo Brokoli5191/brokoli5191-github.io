@@ -122,7 +122,9 @@ a:hover{
   color: var(--orange-yellow-crayola);
 }
 
-
+li{
+ list-style: none;
+}
 
 img, ion-icon, a, button, time, span { display: block; }
 
@@ -402,9 +404,7 @@ main {
   grid-template-columns: 1fr;
   gap: 16px;
 }
-.navbar-item: li{
- list-style: none;
-}
+
 .contact-item {
   min-width: 100%;
   display: flex;
