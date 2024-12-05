@@ -403,6 +403,9 @@ main {
   gap: 16px;
 }
 
+.contact-item: ul{
+ list-style-type: none;
+}
 .contact-item {
   min-width: 100%;
   display: flex;
