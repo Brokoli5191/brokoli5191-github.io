@@ -402,8 +402,7 @@ main {
   grid-template-columns: 1fr;
   gap: 16px;
 }
-
-.contact-item: li{
+.navbar-item: li{
  list-style: none;
 }
 .contact-item {
