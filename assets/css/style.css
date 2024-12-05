@@ -127,7 +127,7 @@ li{
 }
 
 li.list-dot{
- list-style: dot;
+ list-style: disc;
 }
 
 img, ion-icon, a, button, time, span { display: block; }
