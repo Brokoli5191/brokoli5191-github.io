@@ -115,11 +115,13 @@
 
 a {
    text-decoration: none; 
-   color: #FFD700;
+   
+   color: #DAA520;
   }
 
 a:hover{
-  color: #DAA520;
+  
+  color: #FFD700;
 }
 
 li{
