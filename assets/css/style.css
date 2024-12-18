@@ -119,7 +119,7 @@ a {
   }
 
 a:hover{
-  color: var(--vegas-gold);
+  color: #DAA520;
 }
 
 li{
