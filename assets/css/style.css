@@ -115,11 +115,11 @@
 
 a {
    text-decoration: none; 
-   color: #F0E68C;
+   color: #AFB158;
   }
 
 a:hover{
-  color: var(--orange-yellow-crayola);
+  color: var(--vegas-gold);
 }
 
 li{
