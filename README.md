@@ -184,7 +184,10 @@ Project Link: [https://github.com/Brokoli5191/brokoli5191.github.io](https://git
 
 ## Star History
 
-<iframe style="width:100%;height:auto;min-width:600px;min-height:400px;" src="https://star-history.com/embed?secret=#Brokoli5191/brokoli5191.github.io&Date" frameBorder="0"></iframe>
+<div align="center">
+  <a href="https://github.com/Brokoli5191/brokoli5191.github.io/stargazers">
+    <iframe style="width:100%;height:auto;min-width:600px;min-height:400px;" src="https://star-history.com/embed?secret=#Brokoli5191/brokoli5191.github.io&Date" frameBorder="0"></iframe>
+  </a>
 
 
 <!-- ACKNOWLEDGMENTS -->
